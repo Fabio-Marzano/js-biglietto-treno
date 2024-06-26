@@ -27,6 +27,10 @@ else if(eta > 65){
 
 else{
     prezzo_finale = prezzo_base
+    console.log(prezzo_finale);
 }
 
-console.log(prezzo_finale);
+document.getElementById('prezzo_finale').innerHTML = `Il tuo biglietto costa ${prezzo_finale.toFixed(2)}€`
+
+
+
